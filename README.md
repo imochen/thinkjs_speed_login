@@ -1,6 +1,6 @@
 # thinkjs_speed_login
 
-> 基于thinkjs2.0，thinkjs项目须是es6。
+> 适用于thinkjs2.0。
 
 ### 参数说明
 

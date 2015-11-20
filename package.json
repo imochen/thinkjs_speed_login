@@ -1,10 +1,12 @@
 {
   "name": "thinkjs_speed_login",
-  "version": "1.1.0",
-  "description": "> 基于thinkjs2.0，thinkjs项目须是es6。",
+  "version": "1.4.0",
+  "description": " 适用于thinkjs2.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/imochen/thinkjs_speed_login",
   "dependencies": {
     "urllib": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0"
   }
 }
